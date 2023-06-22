@@ -1,0 +1,9 @@
+Name: texlib
+Version: 0.3.3
+Date: 2022-08-05
+Author: dirk mayhew
+Maintainer: dirk mayhew <dirk.mayhew@stellantis.net>
+Title:  tex functions for octave
+Description: writes tex-compatible tables and report sections
+License: GNU Public License v3
+Categories: IO

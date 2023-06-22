@@ -1,0 +1,20 @@
+# texlib function list
+IO >> texlib
+texlib
+ pdfdate.m
+ RGB_COLOR_TRIPLETS.m
+ tex_alphanumericize.m
+ tex_cell2TeXsection.m
+ tex_cell2TeXsubsection.m
+ tex_cell2TeXsubsubsection.m
+ tex_cell2TeXtable.m
+ tex_colormap.m
+ tex_create_filename.m
+ tex_csvwrite.m
+ tex_figure.m
+ tex_generateTeXreportskeletons.m
+ tex_getreporttitle.m
+ tex_hatch.m
+ tex_hatchfill.m
+ tex_log.m
+ tex_printfigure.m

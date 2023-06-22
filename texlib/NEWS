@@ -1,0 +1,168 @@
+
+=================
+0.0.1 2016-05-14
+trying to add m-files
+modified files:
+MDF2oct/MakeMDF2oct.m
+MDF2oct/ZipNSend.sh
+MDF2oct/src/MDF2oct.cpp
+MDF2oct/src/MDF_CN_Block.h
+MDF2oct/src/MDF_DataTypes.h
+MDF2oct/src/MDF_HD_Block.h
+OCT_terminus/src/OCT_terminus.h
+Sim9HP/src/accumulator_data.h
+Sim9HP/src/converter.c
+Sim9HP/src/gear.cpp
+Sim9HP/src/gear_data.h
+Sim9HP/src/pump.c
+Sim9HP/src/pump_data.h
+octave/m/AnalyzeDriveAudits.m
+octave/m/DAT/DAT_FileHeaders.m
+octave/m/DAT/DATindex.m
+octave/m/DAT/FindShift.m
+octave/m/DAT/FindShifts.m
+octave/m/DAT/f_GetData.m
+octave/m/DAT/f_extractsignal.m
+octave/m/DAT/f_findnonshift.m
+octave/m/DAT/f_findshift.m
+octave/m/DAT/f_findshifts.m
+octave/m/DAT/f_findsignals.m
+octave/m/DAT/f_matchtimepoint.m
+octave/m/DAT_SignalList.m
+octave/m/DriveAudit.m
+octave/m/DriveAuditSignals.m
+octave/m/FunctionPrep.m
+octave/m/Make_and_TestOct.m
+octave/m/ReportDriveAudits.m
+octave/m/StopTwoMinMouseWiggle.m
+octave/m/TeX/Cell2TeXPlotSection.m
+octave/m/TeX/TeX_equations.m
+octave/m/TeX/Test_xlswrite.m
+octave/m/TeX/f_appendreport.m
+octave/m/TeX/f_cell2TeXsection.m
+octave/m/TeX/f_cell2TeXsubsection.m
+octave/m/TeX/f_cell2TeXtable.m
+octave/m/TeX/f_generateTeXreportskeletons.m
+octave/m/TransSim/C_ClutchData.m
+octave/m/TransSim/C_ClutchStates.m
+octave/m/TransSim/ClutchData.m
+octave/m/TransSim/ClutchDataObjects.m
+octave/m/TransSim/ISO_ContamScale.m
+octave/m/TransSim/ValveData.m
+octave/m/TransSim/f_AregV.m
+octave/m/TransSim/f_Clutch.m
+octave/m/TransSim/f_Coffg.m
+octave/m/TransSim/f_Conc.m
+octave/m/TransSim/f_GearName.m
+octave/m/TransSim/f_GearSuffix.m
+octave/m/TransSim/f_InitClutchPres.m
+octave/m/TransSim/f_Ki.m
+octave/m/TransSim/f_Lever.m
+octave/m/TransSim/f_Q.m
+octave/m/TransSim/f_Qpump.m
+octave/m/TransSim/f_Qsys.m
+octave/m/TransSim/f_TC.m
+octave/m/TransSim/f_TC_drag.m
+octave/m/TransSim/f_TE.m
+octave/m/TransSim/f_TO.m
+octave/m/TransSim/f_VFSCmd.m
+octave/m/TransSim/f_Valve.m
+octave/m/TransSim/f_ValveClutch.m
+octave/m/TransSim/f_calc_daT_dT.m
+octave/m/TransSim/f_clutching.m
+octave/m/TransSim/f_clutchname.m
+octave/m/TransSim/f_dTC_dTT.m
+octave/m/TransSim/f_dTCdpC.m
+octave/m/TransSim/f_da_dT.m
+octave/m/TransSim/f_degC_clutch.m
+octave/m/TransSim/f_dwC.m
+octave/m/TransSim/f_dwCs.m
+octave/m/TransSim/f_gearsuffix.m
+octave/m/TransSim/f_muOil.m
+octave/m/TransSim/f_nTtgt.m
+octave/m/TransSim/f_n_over_v.m
+octave/m/TransSim/f_p0_C.m
+octave/m/TransSim/f_pC.m
+octave/m/TransSim/f_pC_crit.m
+octave/m/TransSim/f_qE.m
+octave/m/TransSim/f_rC.m
+octave/m/TransSim/f_rT.m
+octave/m/TransSim/f_ratio.m
+octave/m/TransSim/f_rho.m
+octave/m/TransSim/f_wE.m
+octave/m/TransSim/f_wE_vsPct.m
+octave/m/TransSim/f_wE_vsTE.m
+octave/m/TransSim/f_wE_vsTT.m
+octave/m/TransSim/f_wT.m
+octave/m/TransSim/verify_octave.m
+octave/m/TwoMinMouseWiggle.m
+octave/m/f_CSV2m.m
+octave/m/f_GetSignalList.m
+octave/m/f_Get_m_files.m
+octave/m/f_PeirceDeviation.m
+octave/m/f_SQL_GetFields.m
+octave/m/f_ScaleFactor.m
+octave/m/f_ScrubData.m
+octave/m/f_alphanumericize.m
+octave/m/f_colormap.m
+octave/m/f_create_filename.m
+octave/m/f_debounce.m
+octave/m/f_del_figures.m
+octave/m/f_figure.m
+octave/m/f_findname.m
+octave/m/f_fputs.m
+octave/m/f_get_filename.m
+octave/m/f_getfilelist.m
+octave/m/f_log.m
+octave/m/f_m2csv.m
+octave/m/f_prep_m_files.m
+octave/m/f_printfigure.m
+octave/m/f_printtxt.m
+octave/m/get_filename.m
+octave/m/pdfdate.m
+octave/m/rm_git_dirs.m
+
+=================
+0.0.1 2016-05-14
+initial commit
+modified files:
+texlib/NEWS
+
+=================
+0.0.2 2016-05-14
+fix function names
+modified files:
+texlib/DESCRIPTION
+texlib/NEWS
+texlib/inst/tex_cell2TeXsection.m
+texlib/inst/tex_cell2TeXsubsection.m
+texlib/inst/tex_cell2TeXsubsubsection.m
+texlib/inst/tex_cell2TeXtable.m
+texlib/inst/tex_generateTeXreportskeletons.m
+
+=================
+0.0.2 2016-05-14
+function name fixes round 2
+modified files:
+texlib/NEWS
+texlib/inst/tex_cell2TeXsection.m
+texlib/inst/tex_cell2TeXsubsection.m
+
+=================
+0.0.2 2016-05-14
+bugfix
+modified files:
+texlib/NEWS
+texlib/inst/tex_cell2TeXtable.m
+
+=================
+0.1.0 2016-06-18
+First GUI distro
+modified files:
+texlib/DESCRIPTION
+
+=================
+0.3.0 2022-06-13
+
+modified files:
+
